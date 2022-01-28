@@ -1,0 +1,51 @@
+* {
+    font-family: Montserrat;
+}
+
+body {
+    background-color: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15em;
+    padding-right: 10em;
+    color: white;
+}
+
+h5 {
+    font-size: 27px;
+    margin-top: 0.5em;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 0.3em;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 0.2em;
+    margin-left: 0;
+}
+
+h6 {
+    font-size: 18px;
+    margin-top: 1em;
+    padding-left: 6em;
+}
+
+.mbr {
+    background-color: #23A6F0;
+    padding: 0.8em;
+    margin-bottom: 2.5em;
+    border-radius: 0.5em;
+}
