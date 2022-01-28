@@ -1,10 +1,7 @@
 * {
     font-family: Montserrat;
-}
-.container{
-    position: absolute;
-    margin: 20px;
-    width: auto;
+    margin: 0;
+    padding: 0;
 }
 nav {
     display: flex;
@@ -18,7 +15,7 @@ h5 {
     font-size: 27px;
     margin-top: 0.5em;
 }
-.search{
+.search,.cart,.menu{
     display: none;
 }
 
@@ -53,8 +50,14 @@ h6 {
     border-radius: 0.5em;
 }
 body{
-    background-color: gray;
+    background-image: url("/Images/hero-cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 }
+
+
 @media screen and (max-width: 600px){
     nav{
         display: block;
