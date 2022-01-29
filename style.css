@@ -396,19 +396,21 @@ h2{
 }
 .rates{
     border: 1px solid rgb(236, 234, 234);
-    padding:3em ;
+    padding-right:3em; 
+    padding-bottom: 0em;
     padding-left: 3em;
-    margin-bottom: 0;
+    margin-bottom:12em;
     background-color: white;
 }
 .user{
     width: 10em;
+    padding-top: 2em;
     padding-left: 1em;
 }
 .stars{
     width: 5em;
     margin-top:0em;
-    margin-bottom: 10em;
+    margin-bottom: 1em;
     padding-left: 3em;
 } 
 
@@ -454,5 +456,21 @@ h2{
         padding-left: 10em;
         margin-top: 0;
         margin-bottom: 1em;
+    }
+}
+.img{
+    width: 10%;
+    padding-left: 4em;
+
+}
+@media screen and (max-width: 600px){
+    .img{
+        width: 25%;
+        display: block;
+        padding-bottom: 2em;
+    }
+    .apps{
+        margin-left: 10em;
+        margin-top: 15em;
     }
 }
