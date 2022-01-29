@@ -322,12 +322,14 @@ p {
 }
 
 
-.other-sect{
+.other-sect {
     margin-top: 0em;
     background-color: rgb(247, 247, 247);
     padding-top: 12em;
+    padding-bottom: 2em;
 }
-.sector{
+
+.sector {
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -336,32 +338,36 @@ p {
     padding-left: 5em;
     padding-right: 5em;
     padding-top: 7em;
+    padding-bottom: 2em;
     background-color: white;
 }
-.persons{
+
+.persons {
     width: 33%;
 }
 
-@media screen and (max-width: 600px){
-   .other-sect{
-    margin-top: 0em;
-    background-color: white;
-    margin-right: 0;
-    margin-left: 6em;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-   } 
-   .sector{
-       padding:1em;
-       display: block;
-       margin-top: 0;
-       margin-left: 2em;
-       margin-right:6em ;
-       margin-bottom: 0;
-       line-height: 4em; 
-   }
-   .pre-hd{
-       font-size: 0.8em;
-   }
-} 
+@media screen and (max-width: 600px) {
+    .other-sect {
+        margin-top: 0em;
+        background-color: white;
+        margin-right: 0;
+        margin-left: 6em;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sector {
+        padding: 1em;
+        display: block;
+        margin-top: 0;
+        margin-left: 2em;
+        margin-right: 6em;
+        margin-bottom: 0;
+        line-height: 4em;
+    }
+
+    .pre-hd {
+        font-size: 0.8em;
+    }
+}
