@@ -235,12 +235,12 @@ p {
 .prev-sect {
     display: flex;
     font-size: 2em;
-    margin-top: 16em;
+    margin-top: 14em;
     margin-left: 3em;
 }
 
 .person {
-    width: 27%;
+    width: 20%;
 }
 
 .prev-txt {
@@ -248,7 +248,7 @@ p {
 }
 
 .left-prev {
-    background: 1px solid gray;
+    border: 1px solid rgb(247, 242, 242);
     background-color: white;
     margin-right: 8em;
     padding: 1em;
@@ -256,7 +256,7 @@ p {
 }
 
 .mid-prev {
-    background: 1px solid gray;
+    border: 1px solid rgb(247, 242, 242);
     background-color: white;
     margin-right: 1em;
     margin-left: -5em;
@@ -301,6 +301,7 @@ p {
     .left-prev {
         padding: 1em;
         margin: 0;
+        border: none;
         align-content: justify;
         background-color: white
     }
@@ -308,6 +309,7 @@ p {
     .mid-prev {
         padding: 1em;
         margin: 0;
+        border: none;
         align-content: justify;
         background-color: white
     }
@@ -319,26 +321,39 @@ p {
     }
 }
 
-/*
+
 .other-sect{
-    margin-top: 30em;
+    margin-top: 0em;
+    background-color: rgb(247, 247, 247);
+    padding-top: 15em;
+}
+.sector{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8em;
+    margin-right: 8em;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: white;
 }
 .persons{
-    width: 5%;
+    width: 27%;
 }
-@media screen and (max-width: 600px){
+
+/* @media screen and (max-width: 600px){
    .other-sect{
     margin-top: 0em;
     margin-left: 8em;
    } 
-   .sect{
+   .sector{
        padding:0em;
+       display: block;
        margin-top: 0;
        margin-bottom: 0;
        align-items:center;
-       line-height: 3.2em;
+       line-height: 3.5em;
    }
    .pre-hd{
        font-size: 0.8em;
    }
-} */
+}  */
