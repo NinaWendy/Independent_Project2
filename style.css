@@ -371,3 +371,41 @@ p {
         font-size: 0.8em;
     }
 }
+
+@media screen and (max-width: 600px) {
+    section{
+        background-color: rgb(250, 249, 249);
+    }
+    .industry-sec{
+        display: block;
+        margin: 2em;
+        background-color:white;
+    }
+    h2{
+        font-size: 2em;
+        margin-bottom:0.5em;
+        text-align: center;
+    }
+    .indust-txt{
+        color: gray;
+        font-size: 1em;
+        margin-top: 0em;
+    }
+    .rates{
+        text-align: center;
+        font-size: 1em;
+        padding-bottom: 2em;
+        
+    }
+    .user{
+        padding-top: 4em;
+        width: 40%;
+        padding-left: 7em;
+    }
+    .stars{
+        width: 20%;
+        padding-left: 10em;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+}
