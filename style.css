@@ -235,7 +235,7 @@ p {
 .prev-sect {
     display: flex;
     font-size: 2em;
-    margin-top: 14em;
+    margin-top: 17em;
     margin-left: 3em;
 }
 
@@ -372,9 +372,52 @@ p {
     }
 }
 
+
+.industry-sec{
+    margin-top: 2em;
+    padding-top: 3em;
+    background-color: rgb(245, 244, 244);
+}
+h2{
+    font-size:3em ;
+    text-align: center;
+}
+.indust-txt{
+    font-size: 1.1em;
+    text-align: center;
+    color: gray;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.rates{
+    border: 1px solid rgb(236, 234, 234);
+    padding:3em ;
+    padding-left: 3em;
+    margin-bottom: 0;
+    background-color: white;
+}
+.user{
+    width: 10em;
+    padding-left: 1em;
+}
+.stars{
+    width: 5em;
+    margin-top:0em;
+    margin-bottom: 10em;
+    padding-left: 3em;
+} 
+
 @media screen and (max-width: 600px) {
     section{
         background-color: rgb(250, 249, 249);
+    }
+    .comment{
+        display: block;
     }
     .industry-sec{
         display: block;
@@ -392,9 +435,13 @@ p {
         margin-top: 0em;
     }
     .rates{
+        
+        padding: 0;
+        margin:0;
         text-align: center;
         font-size: 1em;
         padding-bottom: 2em;
+        border:none
         
     }
     .user{
