@@ -325,19 +325,21 @@ p {
 .other-sect{
     margin-top: 0em;
     background-color: rgb(247, 247, 247);
-    padding-top: 15em;
+    padding-top: 12em;
 }
 .sector{
+    text-align: center;
     display: flex;
     justify-content: space-between;
     margin-left: 8em;
     margin-right: 8em;
     padding-left: 5em;
     padding-right: 5em;
+    padding-top: 7em;
     background-color: white;
 }
 .persons{
-    width: 27%;
+    width: 33%;
 }
 
 /* @media screen and (max-width: 600px){
