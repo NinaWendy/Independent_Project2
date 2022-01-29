@@ -122,7 +122,7 @@ h6 {
         color: gray;
     }
 
-    h6 {
+    .login {
         display: none;
     }
 
@@ -166,3 +166,79 @@ p{
     padding: 1em;
 
 }
+@media screen and (max-width: 600px){
+    
+    .hero{
+        margin-top: 50em;
+        display: block;
+        background-image: url("/Images/hero-cover.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180%;
+        width: 600%;
+    }
+    h1{
+        font-size: 3em;
+        padding: 2em;
+        padding-top: 1em;
+        margin-top:0;
+        color:white;
+    }
+    p{
+        font-size: 1.3em;
+        color: white;
+        margin-top:-3em;
+        margin-bottom: 1em;
+
+    }
+    h6{
+       margin: 0;
+        padding-left:5em;
+        padding-right: 2em;
+        font-size:1.2em;
+        color:white;   
+    }
+    .right-btn{
+        margin-left:72em;
+        margin-top:2em;
+    }
+    .left-btn{
+        margin-right: 72em;
+        margin-top: 2em;
+        padding-right: 1em;
+    }
+}
+.prev-sect{
+    display:flex;
+    font-size: 2em;
+    margin-top:-0.3em;
+    margin-left: 1.8em;
+    
+}
+.person{
+    width: 20%;
+}
+.prev-txt{
+    font-size: 0.8em;
+}
+.left-prev{
+    background: 1px solid gray;
+    background-color:white;
+    margin-right: 2em;
+    padding: 2em;
+}
+.mid-prev{
+    background: 1px solid gray;
+    background-color:white;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 2em;
+
+}
+.right-prev{
+    background: 1px solid gray;
+    background-color:#23A6F0;
+    margin-left: 2em;
+    padding:2em ;
+}
+
