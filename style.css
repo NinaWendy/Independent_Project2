@@ -1,5 +1,5 @@
 * {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     margin: 0;
     padding: 0;
 }
@@ -79,6 +79,7 @@ h6 {
         float: left;
         margin: -1.5em;
         color: black;
+
     }
 
     .search {
@@ -134,29 +135,35 @@ h6 {
         background-image: none;
     }
 }
-.hero{
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
+
+.heroo {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 3em;
 }
-h1{
+
+h1 {
     font-size: 4.5em;
 }
-p{
+
+p {
     font-size: 1.5em;
 }
-.right-btn{
+
+.right-btn {
     background-color: #23A6F0;
     border-radius: 4em;
     margin-left: 5em;
-    margin-right:10em;
+    margin-right: 10em;
     float: left;
-    padding:1em;
+    padding: 1em;
 }
-.left-btn{
+
+.left-btn {
     background-color: transparent;
     border-radius: 4em;
     border: solid rgb(218, 215, 215);
@@ -166,79 +173,172 @@ p{
     padding: 1em;
 
 }
-@media screen and (max-width: 600px){
-    
-    .hero{
-        margin-top: 50em;
+
+@media screen and (max-width: 600px) {
+    .container {
+        height: 100%;
+        width: auto;
+    }
+
+    .heroo {
+        margin-top: 30em;
         display: block;
         background-image: url("/Images/hero-cover.png");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 180%;
+        height: 100%;
         width: 600%;
     }
-    h1{
+
+    .hero {
+        height: 500%;
+        width: auto;
+        display: block;
+    }
+
+    h1 {
         font-size: 3em;
         padding: 2em;
         padding-top: 1em;
-        margin-top:0;
-        color:white;
+        margin-top: 0;
+        color: white;
     }
-    p{
+
+    p {
         font-size: 1.3em;
         color: white;
-        margin-top:-3em;
+        margin-top: -3em;
         margin-bottom: 1em;
 
     }
-    h6{
-       margin: 0;
-        padding-left:5em;
+
+    h6 {
+        margin: 0;
+        padding-left: 5em;
         padding-right: 2em;
-        font-size:1.2em;
-        color:white;   
+        font-size: 1.2em;
+        color: white;
     }
-    .right-btn{
-        margin-left:72em;
-        margin-top:2em;
+
+    .right-btn {
+        margin-left: 72em;
+        margin-top: 2em;
     }
-    .left-btn{
-        margin-right: 72em;
+
+    .left-btn {
+        margin-right: 74em;
         margin-top: 2em;
         padding-right: 1em;
     }
 }
-.prev-sect{
-    display:flex;
+
+.prev-sect {
+    display: flex;
     font-size: 2em;
-    margin-top:-0.3em;
-    margin-left: 1.8em;
-    
+    margin-top: 16em;
+    margin-left: 3em;
 }
-.person{
-    width: 20%;
+
+.person {
+    width: 27%;
 }
-.prev-txt{
-    font-size: 0.8em;
+
+.prev-txt {
+    font-size: 1em;
 }
-.left-prev{
+
+.left-prev {
     background: 1px solid gray;
-    background-color:white;
-    margin-right: 2em;
-    padding: 2em;
+    background-color: white;
+    margin-right: 8em;
+    padding: 1em;
+
 }
-.mid-prev{
+
+.mid-prev {
     background: 1px solid gray;
-    background-color:white;
-    margin-right: 2em;
-    margin-left: 2em;
+    background-color: white;
+    margin-right: 1em;
+    margin-left: -5em;
     padding: 2em;
 
 }
-.right-prev{
+
+.right-prev {
     background: 1px solid gray;
-    background-color:#23A6F0;
+    background-color: #23A6F0;
     margin-left: 2em;
-    padding:2em ;
+    padding: 2em;
 }
 
+@media screen and (max-width: 600px) {
+
+
+    .prev-sect {
+        display: block;
+        font-size: 0.5em;
+        margin-right: 1em;
+        margin-top: 70em;
+        line-height: 7.5em;
+        margin-left: 19em;
+    }
+
+    .person {
+        width: 10%;
+        margin: 0;
+    }
+
+    h4 {
+        margin-top: 0;
+        font-size: 1.3em;
+    }
+
+    .prev-txt {
+        color: gray;
+        font-size: 0.8em;
+    }
+
+    .left-prev {
+        padding: 1em;
+        margin: 0;
+        align-content: justify;
+        background-color: white
+    }
+
+    .mid-prev {
+        padding: 1em;
+        margin: 0;
+        align-content: justify;
+        background-color: white
+    }
+
+    .right-prev {
+        padding: 1em;
+        margin: 1em;
+        background-color: white
+    }
+}
+
+/*
+.other-sect{
+    margin-top: 30em;
+}
+.persons{
+    width: 5%;
+}
+@media screen and (max-width: 600px){
+   .other-sect{
+    margin-top: 0em;
+    margin-left: 8em;
+   } 
+   .sect{
+       padding:0em;
+       margin-top: 0;
+       margin-bottom: 0;
+       align-items:center;
+       line-height: 3.2em;
+   }
+   .pre-hd{
+       font-size: 0.8em;
+   }
+} */
