@@ -373,104 +373,183 @@ p {
 }
 
 
-.industry-sec{
+.industry-sec {
     margin-top: 2em;
     padding-top: 3em;
     background-color: rgb(245, 244, 244);
 }
-h2{
-    font-size:3em ;
+
+h2 {
+    font-size: 3em;
     text-align: center;
 }
-.indust-txt{
+
+.indust-txt {
     font-size: 1.1em;
     text-align: center;
     color: gray;
 }
-.comment{
+
+.comment {
     display: flex;
     justify-content: space-between;
     color: gray;
     margin-left: 5em;
     margin-right: 5em;
 }
-.rates{
+
+.rates {
     border: 1px solid rgb(236, 234, 234);
-    padding-right:3em; 
+    padding-right: 3em;
     padding-bottom: 0em;
     padding-left: 3em;
-    margin-bottom:12em;
+    margin-bottom: 12em;
     background-color: white;
 }
-.user{
+
+.user {
     width: 10em;
     padding-top: 2em;
     padding-left: 1em;
 }
-.stars{
+
+.stars {
     width: 5em;
-    margin-top:0em;
+    margin-top: 0em;
     margin-bottom: 1em;
     padding-left: 3em;
-} 
+}
 
 @media screen and (max-width: 600px) {
-    section{
+    section {
         background-color: rgb(250, 249, 249);
     }
-    .comment{
+
+    .comment {
         display: block;
     }
-    .industry-sec{
+
+    .industry-sec {
         display: block;
         margin: 2em;
-        background-color:white;
+        background-color: white;
     }
-    h2{
+
+    h2 {
         font-size: 2em;
-        margin-bottom:0.5em;
+        margin-bottom: 0.5em;
         text-align: center;
     }
-    .indust-txt{
+
+    .indust-txt {
         color: gray;
         font-size: 1em;
         margin-top: 0em;
     }
-    .rates{
-        
+
+    .rates {
+
         padding: 0;
-        margin:0;
+        margin: 0;
         text-align: center;
         font-size: 1em;
         padding-bottom: 2em;
-        border:none
-        
+        border: none
     }
-    .user{
+
+    .user {
         padding-top: 4em;
         width: 40%;
         padding-left: 7em;
     }
-    .stars{
+
+    .stars {
         width: 20%;
         padding-left: 10em;
         margin-top: 0;
         margin-bottom: 1em;
     }
 }
-.img{
+
+.img {
     width: 10%;
     padding-left: 4em;
 
 }
-@media screen and (max-width: 600px){
-    .img{
+
+@media screen and (max-width: 600px) {
+    .img {
         width: 25%;
         display: block;
         padding-bottom: 2em;
     }
-    .apps{
+
+    .apps {
         margin-left: 10em;
         margin-top: 15em;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .subscribe {
+        padding: 0;
+        padding-left: 9em;
+        padding-top: 1em;
+        border: 1px solid gray;
+        background-image: linear-gradient(to right, rgb(2, 2, 90), rgb(107, 5, 107), rgb(201, 65, 87));
+        padding-bottom: 1em;
+    }
+
+    .sub {
+        text-align: center;
+        padding-right: 5em;
+        color: white;
+    }
+
+    .subscri {
+        padding: 0.5em;
+        margin-left: 0;
+        background-color: #23A6F0;
+    }
+
+    .email {
+        padding: 0.5em;
+        margin-right: -1rem;
+    }
+}
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6em;
+    padding-right: 8em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 4em;
+    padding-top: 2em;
+    border: 1px solid gray;
+    background-image: linear-gradient(to right, rgb(2, 2, 90), rgb(107, 5, 107), rgb(201, 65, 87));
+    padding-bottom: 2em;
+}
+
+.sub {
+    font-size: 1.6em;
+    color: white;
+}
+
+.subscri {
+    background-color: #23A6F0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+    color: white;
+    font-size: 1em;
+}
+
+.email {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 3em;
+    font-size: 1em;
+    margin-right: -2em;
 }
