@@ -342,20 +342,26 @@ p {
     width: 33%;
 }
 
-/* @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
    .other-sect{
     margin-top: 0em;
-    margin-left: 8em;
+    background-color: white;
+    margin-right: 0;
+    margin-left: 6em;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
    } 
    .sector{
-       padding:0em;
+       padding:1em;
        display: block;
        margin-top: 0;
+       margin-left: 2em;
+       margin-right:6em ;
        margin-bottom: 0;
-       align-items:center;
-       line-height: 3.5em;
+       line-height: 4em; 
    }
    .pre-hd{
        font-size: 0.8em;
    }
-}  */
+} 
