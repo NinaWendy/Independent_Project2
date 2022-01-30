@@ -949,7 +949,7 @@ h2 {
     padding-right: 10em;
     padding-top: 8em;
     padding-bottom: 3em;
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(250, 250, 250);
 }
 
 .cont {
@@ -1057,5 +1057,52 @@ h2 {
     .fifth {
         padding-left: 0.1em;
         margin: 0.5em;
+    }
+}
+
+.foot-txt {
+    margin-left: 12em;
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0em;
+    margin-right: 0em;
+    background-color: rgb(250, 250, 250);
+}
+
+.imgs-foot {
+    width: 10%;
+    margin-top: 0.9em;
+    margin-bottom: 1em;
+    margin-right: 15em;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        display: grid;
+        margin-left: em;
+        margin-top: 2em;
+        margin-bottom: 4em;
+        padding-bottom: 4em;
+        margin-right: 0em;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .foot-txt {
+        margin-left: 5em;
+        font-size: 1em;
+        margin-top: 2em;
+        color: gray;
+    }
+
+    .imgs-foot {
+        width: 30%;
+        margin-top: 3em;
+        margin-bottom: 1em;
+        margin-left: 10em;
     }
 }
