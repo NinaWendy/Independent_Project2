@@ -59,7 +59,7 @@ h6 {
 }
 
 .container {
-    background-image: url("/Images/hero-cover.png");
+    background-image: url("Images/hero-cover.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -183,7 +183,7 @@ p {
     .heroo {
         margin-top: 30em;
         display: block;
-        background-image: url("/Images/hero-cover.png");
+        background-image: url("Images/hero-cover.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
