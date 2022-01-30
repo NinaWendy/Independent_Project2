@@ -942,3 +942,70 @@ h2 {
         border-radius: 0.5em;
     }
 }
+
+.contacts {
+    margin-left: 0em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 8em;
+    padding-bottom: 3em;
+    background-color: rgb(231, 230, 230);
+}
+
+.cont {
+    background-color: #23A6F0;
+    padding: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-bottom: 2.5em;
+    border-radius: 0.5em;
+    float: right;
+}
+
+.consult-hd {
+    font-size: 1.7em;
+}
+
+.consult-txt {
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+    .contacts {
+        margin-top: 35em;
+        padding-left: 4em;
+        padding-top: 4em;
+        padding-bottom: 5em;
+        padding-right: 1em;
+        padding-left: 4em;
+        margin-left: 0;
+        border-top: 6px solid black;
+        background-color: rgb(231, 230, 230);
+
+    }
+
+    .cont {
+        font-size: 1.2em;
+        background-color: #23A6F0;
+        padding: 1em;
+        margin-left: 2em;
+        padding-right: 5em;
+        padding-left: 4em;
+        margin-top: 2em;
+        border-radius: 0.5em;
+        margin-bottom: 2em;
+        margin-right: 4em;
+    }
+
+    .consult-hd {
+        margin-top: 2em;
+        font-size: 1.5em;
+    }
+
+    .consult-txt {
+        color: gray;
+        margin-top: 1em;
+        font-size: 1.1em;
+    }
+
+}
