@@ -800,8 +800,6 @@ h2 {
 }
 
 .map {
-    /* display: flex;
-   justify-content: space-between;*/
     background-color: rgb(22, 22, 39);
     padding-left: 13em;
     padding-top: 10em;
@@ -858,5 +856,89 @@ h2 {
         margin-top: 3em;
         padding-top: 0.7em;
         padding-bottom: 3em;
+    }
+}
+
+.form {
+    background-color: white;
+    border: 1px solid rgb(238, 238, 238);
+    margin-right: 15em;
+    margin-left: 15em;
+    padding-bottom: 0em;
+    margin-top: -22em;
+}
+
+.input {
+    padding-left: 1em;
+    float: right;
+    margin-right: 12em;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.bookAp {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.contact {
+    width: 30%;
+    padding-right: -9em;
+}
+
+.btn {
+    background-color: #23A6F0;
+    padding: 0.8em;
+    padding-right: 9em;
+    margin-bottom: 2.5em;
+    border-radius: 0.5em;
+}
+
+.area {
+    padding: 1em;
+    padding-right: 10em;
+    border-radius: 0.5em;
+    background-color: rgb(221, 221, 221);
+}
+
+@media screen and (max-width: 600px) {
+
+    .contact {
+        width: 100%;
+    }
+
+    .form {
+        margin-top: -2em;
+        padding-left: 0;
+        margin-left: 7em;
+        border: none;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        background-color: white;
+    }
+
+    .input {
+        margin-right: -13em;
+        font-size: 1.2em;
+        padding-bottom: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .bookAp {
+        display: none;
+    }
+
+    .btn {
+        background-color: #23A6F0;
+        padding: 0.8em;
+        font-size: 1em;
+        padding-right: 8em;
+        margin-right: 17em;
+        margin-bottom: 2.5em;
+        border-radius: 0.5em;
     }
 }
