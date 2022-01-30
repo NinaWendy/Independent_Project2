@@ -7,7 +7,7 @@
 
 + [Description](#Description)
 + [Installation Requirement](#Installation)
-+ [Technology Used](#Technology Used)
++ [Technology Used](#Technology-Used)
 + [Reference](#Reference)
 + [Licence](#LICENSE)
 + [Authors Info](#Author-Info)
@@ -37,5 +37,6 @@ Copyright (c) 2022 [click to view License](LICENSE)
 ## Authors Info
 Linked-[Wendy Nina]
 (https://www.linkedin.com/in/wendy-nina-616559196/)
+
 Slack-[Wendy Busolo] (https://moringaclassroom.slack.com/team/U02TWDAUL90)
 [Go Back to the top](#Insurance)
