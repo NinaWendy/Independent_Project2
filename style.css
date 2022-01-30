@@ -1009,3 +1009,53 @@ h2 {
     }
 
 }
+
+.last-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-right: 10em;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+    display: grid;
+}
+
+.hd {
+    font-weight: bold;
+}
+
+.fifth {
+    padding-left: 3em;
+    margin: 0.5em;
+}
+
+.imgs {
+    width: 10%;
+    margin-top: 0.9em;
+    margin-bottom: -1em;
+    margin-left: -1em;
+}
+
+@media screen and (max-width: 600px) {
+
+    .last-sec {
+        display: block;
+        justify-content: space-between;
+        margin-left: 10em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+        margin-right: 10em;
+    }
+
+    .fifth {
+        padding-left: 0.1em;
+        margin: 0.5em;
+    }
+}
