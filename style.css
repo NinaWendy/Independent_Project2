@@ -798,3 +798,65 @@ h2 {
     }
 
 }
+
+.map {
+    /* display: flex;
+   justify-content: space-between;*/
+    background-color: rgb(22, 22, 39);
+    padding-left: 13em;
+    padding-top: 10em;
+    margin-bottom: 2em;
+    padding-bottom: 24em;
+}
+
+.map-hd {
+    color: white;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+.map-txt {
+    color: white;
+    font-size: 1.1em;
+}
+
+.map-img {
+    width: 50%;
+    float: right;
+    padding-right: 4em;
+}
+
+@media screen and (max-width: 600px) {
+    .map {
+        background-color: rgb(36, 36, 63);
+        margin-top: 2em;
+        padding-top: 8em;
+        padding-bottom: 8em;
+        padding-left: 1.5em;
+        padding-right: 3em;
+    }
+
+    .map-hd {
+        margin-top: 0;
+        margin-bottom: 2em;
+        text-align: justify;
+        padding-left: 1.1em;
+        color: white;
+        font-size: 2.7em;
+
+    }
+
+    .map-txt {
+        font-size: 1em;
+        padding-left: 2em;
+        line-height: 1.5em;
+    }
+
+    .map-img {
+        width: 80%;
+        padding-left: 2em;
+        margin-top: 3em;
+        padding-top: 0.7em;
+        padding-bottom: 3em;
+    }
+}
