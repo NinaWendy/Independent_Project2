@@ -490,35 +490,6 @@ h2 {
     }
 }
 
-@media screen and (max-width: 600px) {
-    .subscribe {
-        padding: 0;
-        display: inline;
-        padding-left: 9em;
-        padding-top: 1em;
-        border: 1px solid gray;
-        background-image: linear-gradient(to right, rgb(2, 2, 90), rgb(107, 5, 107), rgb(201, 65, 87));
-        padding-bottom: 1em;
-    }
-
-    .sub {
-        text-align: center;
-        padding-right: 5em;
-        color: white;
-    }
-
-    .subscri {
-        padding: 0.5em;
-        margin-left: 0;
-        background-color: #23A6F0;
-    }
-
-    .email {
-        padding: 0.5em;
-        margin-right: -1rem;
-    }
-}
-
 .subscribe {
     display: flex;
     justify-content: space-between;
@@ -554,6 +525,37 @@ h2 {
     padding-right: 3em;
     font-size: 1em;
     margin-right: -2em;
+}
+
+@media screen and (max-width: 600px) {
+    .subscribe {
+        padding: 0;
+        display: grid;
+        padding-left: 2em;
+        padding-top: 1em;
+        margin-left: 0em;
+        margin-right: 0em;
+        border: 1px solid gray;
+        background-image: linear-gradient(to right, rgb(2, 2, 90), rgb(107, 5, 107), rgb(201, 65, 87));
+        padding-bottom: 1em;
+    }
+
+    .sub {
+        text-align: center;
+        padding-right: 5em;
+        color: white;
+    }
+
+    .subscri {
+        padding: 0.5em;
+        margin-left: 0;
+        background-color: #23A6F0;
+    }
+
+    .email {
+        padding: 0.5em;
+        margin-right: -1rem;
+    }
 }
 
 .pricing-sec {
@@ -608,14 +610,16 @@ h2 {
 
 .price {
     color: black;
+    font-size: 1.7em;
     font-weight: bold;
-    padding-left: 4em;
+    padding-left: 1.5em;
 }
 
 .price2 {
     color: white;
+    font-size: 1.7em;
     font-weight: bold;
-    padding-left: 4em;
+    padding-left: 1em;
 }
 
 .price-comment {
@@ -639,17 +643,31 @@ h2 {
     width: 10%;
 }
 
+.tick {
+    margin-bottom: -1.5em;
+    width: 15%;
+}
+
+.tick2 {
+    width: 10%;
+    margin-bottom: -1.5em;
+    margin-left: 0.5em;
+}
+
 .price-list {
     color: black;
     font-size: 1em;
     margin-bottom: 2em;
+    margin-left: 2em;
 }
 
 .price-list2 {
     color: white;
     font-size: 1em;
     margin-bottom: 2em;
+    margin-left: 2em;
 }
+
 
 .free {
     background-color: #23A6F0;
@@ -659,4 +677,124 @@ h2 {
     margin-bottom: 1em;
     border-radius: 0.5em;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .pricing-sec {
+        display: block;
+        margin: 2em;
+        margin-top: 2em;
+        padding-top: 2em;
+        background-color: white;
+    }
+
+    .price-hd {
+        margin-bottom: 2em;
+    }
+
+    .detail {
+        display: block;
+        margin-left: 6em;
+        margin-right: 6em;
+    }
+
+    .rates {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 1em;
+        padding-bottom: 2em;
+        border: none;
+        background-color: white;
+    }
+
+    .rates2 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 1em;
+        padding-bottom: 2em;
+        border: none;
+        background-color: white;
+    }
+
+    .price {
+        color: black;
+        font-weight: bold;
+        padding-left: 2em;
+        padding-top: 4em;
+    }
+
+    .price2 {
+        color: black;
+        font-weight: bold;
+        padding-left: 2em;
+        padding-top: 4em;
+    }
+
+    .price-comment {
+        color: gray;
+        font-size: 1em;
+        padding-top: 5em;
+    }
+
+    .price-comment2 {
+        color: gray;
+        font-size: 1em;
+        padding-top: 5em;
+    }
+
+    .dollar {
+        color: #23A6F0;
+        font-size: 1.7em;
+        font-weight: bold;
+        padding-left: 1em;
+        margin-bottom: 1em;
+
+    }
+
+    .amount {
+        width: 12%;
+    }
+
+    .tick {
+        width: 15%;
+        margin-bottom: -1.5em;
+    }
+
+    .tick2 {
+        width: 10%;
+        margin-bottom: -1.5em;
+        margin-left: 0.5em;
+    }
+
+    .price-list {
+        color: black;
+        font-size: 1em;
+        margin-bottom: 2em;
+        padding-top: 3em;
+        text-align: justify;
+    }
+
+    .price-list2 {
+        color: black;
+        font-size: 1em;
+        margin-bottom: 2em;
+        padding-top: 3em;
+        text-align: justify;
+    }
+
+    .free {
+        background-color: #23A6F0;
+        padding: 0.8em;
+        padding-right: 2em;
+        padding-left: 2em;
+        margin-bottom: 1em;
+        border-radius: 0.5em;
+        text-align: center;
+        font-size: 1em;
+        color: black;
+    }
+
 }
