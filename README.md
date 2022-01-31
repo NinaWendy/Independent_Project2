@@ -13,7 +13,7 @@
 + [Authors Info](#Author-Info)
 
 ## Description
-This is a simple burger fastfood restaraunt website. It provides a wide selection of mouth-watering burgers at the comfort of your home by making orders either via the mobile app or the website.
+This is a simple insurance website that helps you plan for the unseen future.It gives you control over your future to know that your family will be secure with or without you around.
 # Installation
 ### Requirements
 Either a computer,phone,tablet or an Ipad
