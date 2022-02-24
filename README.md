@@ -12,7 +12,7 @@
 + [Authors Info](#Author-Info)
 
 ## Description
-This is a simple insurance website that helps you plan for the unseen future.It gives you control over your future to know that your family will be secure with or without you around.
+This is a simple Secure Convenient Insurance(S.C-Insurance) website that helps you plan for the unseen future.It gives you control over your future to know that your family will be secure with or without you around.
 # Installation
 ### Requirements
 Either a computer,phone,tablet or an Ipad
